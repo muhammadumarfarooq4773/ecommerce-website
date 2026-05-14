@@ -68,7 +68,7 @@ a {
 }
 
 .nav-menu a {
-  color: var(--muted);
+  color: var(blue);
   text-decoration: none;
   transition: color 0.2s ease;
 }
