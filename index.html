@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern Ecommerce Store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Shoply</a>
+      <nav class="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="cart-btn" aria-label="View cart">
+        Cart <span id="cart-count">0</span>
+      </button>
+      <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Best deals for every season</p>
+          <h1>Elevate your style with curated essentials.</h1>
+          <p>Discover premium products, fast shipping, and seamless shopping for everyone.</p>
+          <div class="hero-actions">
+            <a href="#products" class="btn btn-primary">Shop Now</a>
+            <a href="#about" class="btn btn-secondary">Learn More</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80" alt="Stylish ecommerce hero" />
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products-section">
+      <div class="container section-heading">
+        <p class="eyebrow">Featured Products</p>
+        <h2>Shop our top picks</h2>
+      </div>
+      <div class="container product-grid" id="product-grid">
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80" alt="Running Shoes" />
+          <div class="product-details">
+            <h3>Running Shoes</h3>
+            <p>Lightweight comfort for every run.</p>
+            <div class="product-meta">
+              <span>$79</span>
+              <button class="btn btn-cart" data-product="Running Shoes">Add to cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=80" alt="Wireless Headphones" />
+          <div class="product-details">
+            <h3>Wireless Headphones</h3>
+            <p>Clear sound with modern style.</p>
+            <div class="product-meta">
+              <span>$129</span>
+              <button class="btn btn-cart" data-product="Wireless Headphones">Add to cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=600&q=80" alt="Smart Watch" />
+          <div class="product-details">
+            <h3>Smart Watch</h3>
+            <p>Track your day with a sleek display.</p>
+            <div class="product-meta">
+              <span>$149</span>
+              <button class="btn btn-cart" data-product="Smart Watch">Add to cart</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Shoply</h3>
+        <p>Designed for modern shoppers who value speed, style, and quality.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>hello@shoply.com</p>
+        <p>+1 (555) 123-4567</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Shoply. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
